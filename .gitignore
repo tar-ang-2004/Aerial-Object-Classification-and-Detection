@@ -1,0 +1,30 @@
+# Ignore trained model weights
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Local env
+.env
+
+# Application artifacts
+uploads/
+results/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+

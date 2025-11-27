@@ -1,0 +1,565 @@
+2025-11-23 21:04:01,972 WARNING  * Debugger is active!
+2025-11-23 21:04:01,979 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:04:05,852 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\deployment_package\\streamlit_app.py', reloading
+2025-11-23 21:04:06,057 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\deployment_package\\utils\\inference.py', reloading
+2025-11-23 21:04:12,759 WARNING  * Debugger is active!
+2025-11-23 21:04:12,774 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:05:04,769 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-23 21:05:04,777 INFO [33mPress CTRL+C to quit[0m
+2025-11-23 21:05:04,787 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:05:10,082 WARNING  * Debugger is active!
+2025-11-23 21:05:10,088 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:05:30,730 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\cacheprovider.py', reloading
+2025-11-23 21:05:30,763 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\fixtures.py', reloading
+2025-11-23 21:05:30,900 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\capture.py', reloading
+2025-11-23 21:05:30,943 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\doctest.py', reloading
+2025-11-23 21:05:30,975 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\junitxml.py', reloading
+2025-11-23 21:05:31,003 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\legacypath.py', reloading
+2025-11-23 21:05:31,050 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\logging.py', reloading
+2025-11-23 21:05:31,091 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\monkeypatch.py', reloading
+2025-11-23 21:05:31,114 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\recwarn.py', reloading
+2025-11-23 21:05:31,135 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\tmpdir.py', reloading
+2025-11-23 21:05:32,063 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:05:39,101 WARNING  * Debugger is active!
+2025-11-23 21:05:39,118 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:05:39,348 INFO 127.0.0.1 - - [23/Nov/2025 21:05:39] "GET / HTTP/1.1" 200 -
+2025-11-23 21:05:47,527 INFO Received file 1763912147_Screenshot_2025-11-23_192322.png (ext=png)
+2025-11-23 21:05:47,874 INFO Prediction successful for 1763912147_Screenshot_2025-11-23_192322.png
+2025-11-23 21:05:47,875 INFO 127.0.0.1 - - [23/Nov/2025 21:05:47] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:06:52,497 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:06:52,498 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:06:54,247 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:06:59,711 WARNING  * Debugger is active!
+2025-11-23 21:06:59,718 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:09:42,655 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-23 21:09:42,656 INFO [33mPress CTRL+C to quit[0m
+2025-11-23 21:09:42,666 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:09:48,046 WARNING  * Debugger is active!
+2025-11-23 21:09:48,052 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:10:17,101 INFO 127.0.0.1 - - [23/Nov/2025 21:10:17] "GET / HTTP/1.1" 200 -
+2025-11-23 21:10:26,138 INFO Received file 1763912426_Screenshot_2025-11-23_192322.png (ext=png)
+2025-11-23 21:10:26,499 INFO Prediction successful for 1763912426_Screenshot_2025-11-23_192322.png
+2025-11-23 21:10:26,501 INFO 127.0.0.1 - - [23/Nov/2025 21:10:26] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:10:38,857 INFO Received file 1763912438_Screenshot_2025-11-23_192113.png (ext=png)
+2025-11-23 21:10:38,952 INFO Prediction successful for 1763912438_Screenshot_2025-11-23_192113.png
+2025-11-23 21:10:38,954 INFO 127.0.0.1 - - [23/Nov/2025 21:10:38] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:18:05,408 INFO Received file 1763912885_Screenshot_2025-11-23_211748.png (ext=png)
+2025-11-23 21:18:05,505 INFO Prediction successful for 1763912885_Screenshot_2025-11-23_211748.png
+2025-11-23 21:18:05,507 INFO 127.0.0.1 - - [23/Nov/2025 21:18:05] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:19:11,293 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-23 21:19:11,294 INFO [33mPress CTRL+C to quit[0m
+2025-11-23 21:19:11,303 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:19:16,439 WARNING  * Debugger is active!
+2025-11-23 21:19:16,445 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:19:36,664 INFO 127.0.0.1 - - [23/Nov/2025 21:19:36] "GET / HTTP/1.1" 200 -
+2025-11-23 21:19:51,154 INFO Received file 1763912991_Screenshot_2025-11-23_211856.png (ext=png)
+2025-11-23 21:19:51,493 INFO Prediction successful for 1763912991_Screenshot_2025-11-23_211856.png
+2025-11-23 21:19:51,495 INFO 127.0.0.1 - - [23/Nov/2025 21:19:51] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:21:57,774 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-23 21:21:57,774 INFO [33mPress CTRL+C to quit[0m
+2025-11-23 21:21:57,785 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:22:03,543 WARNING  * Debugger is active!
+2025-11-23 21:22:03,550 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:22:42,723 INFO 127.0.0.1 - - [23/Nov/2025 21:22:42] "GET / HTTP/1.1" 200 -
+2025-11-23 21:29:15,037 INFO 127.0.0.1 - - [23/Nov/2025 21:29:15] "GET / HTTP/1.1" 200 -
+2025-11-23 21:29:30,895 INFO 127.0.0.1 - - [23/Nov/2025 21:29:30] "GET / HTTP/1.1" 200 -
+2025-11-23 21:31:37,439 INFO 127.0.0.1 - - [23/Nov/2025 21:31:37] "GET / HTTP/1.1" 200 -
+2025-11-23 21:32:03,895 INFO Received file 1763913723_Screen_Recording_2025-11-23_200637.mp4 (ext=mp4)
+2025-11-23 21:32:05,113 INFO Prediction successful for 1763913723_Screen_Recording_2025-11-23_200637.mp4
+2025-11-23 21:32:05,115 INFO 127.0.0.1 - - [23/Nov/2025 21:32:05] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:32:19,561 INFO Received file 1763913739_Screenshot_2025-11-23_211748.png (ext=png)
+2025-11-23 21:32:19,676 INFO Prediction successful for 1763913739_Screenshot_2025-11-23_211748.png
+2025-11-23 21:32:19,678 INFO 127.0.0.1 - - [23/Nov/2025 21:32:19] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:32:34,344 INFO Received file 1763913754_Screen_Recording_2025-11-23_200637.mp4 (ext=mp4)
+2025-11-23 21:32:35,218 INFO Prediction successful for 1763913754_Screen_Recording_2025-11-23_200637.mp4
+2025-11-23 21:32:35,220 INFO 127.0.0.1 - - [23/Nov/2025 21:32:35] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:33:13,476 INFO 127.0.0.1 - - [23/Nov/2025 21:33:13] "GET / HTTP/1.1" 200 -
+2025-11-23 21:43:06,748 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:43:06,756 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:43:07,181 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\imageio\\__init__.py', reloading
+2025-11-23 21:43:09,557 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:43:33,348 WARNING  * Debugger is active!
+2025-11-23 21:43:33,357 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:44:14,145 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\cv2\\__init__.py', reloading
+2025-11-23 21:44:16,017 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:44:28,827 WARNING  * Debugger is active!
+2025-11-23 21:44:28,836 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:50:45,830 INFO 127.0.0.1 - - [23/Nov/2025 21:50:45] "GET / HTTP/1.1" 200 -
+2025-11-23 21:50:50,471 INFO Received file 1763914850_Screen_Recording_2025-11-23_200637.mp4 (ext=mp4)
+2025-11-23 21:51:10,087 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:51:10,090 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:51:10,090 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:51:10,091 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:51:11,520 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:51:20,919 WARNING  * Debugger is active!
+2025-11-23 21:51:20,926 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:52:44,964 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-23 21:52:44,964 INFO [33mPress CTRL+C to quit[0m
+2025-11-23 21:52:44,975 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:52:52,937 WARNING  * Debugger is active!
+2025-11-23 21:52:52,959 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:52:53,202 INFO 127.0.0.1 - - [23/Nov/2025 21:52:53] "GET / HTTP/1.1" 200 -
+2025-11-23 21:52:53,233 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\torchvision\\ops\\misc.py', reloading
+2025-11-23 21:52:53,438 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\torch\\torch_version.py', reloading
+2025-11-23 21:52:53,459 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\torch\\version.py', reloading
+2025-11-23 21:52:53,487 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\torch\\backends\\__init__.py', reloading
+2025-11-23 21:52:53,518 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\torch\\backends\\cudnn\\__init__.py', reloading
+2025-11-23 21:52:53,632 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\plotly\\express\\__init__.py', reloading
+2025-11-23 21:52:53,663 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\plotly\\graph_objects\\__init__.py', reloading
+2025-11-23 21:52:53,770 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\plotly\\subplots.py', reloading
+2025-11-23 21:52:53,792 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\plotly\\graph_objs\\__init__.py', reloading
+2025-11-23 21:52:53,904 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\plotly\\graph_objs\\_figure.py', reloading
+2025-11-23 21:52:54,049 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\plotly\\basedatatypes.py', reloading
+2025-11-23 21:52:54,111 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\torch\\random.py', reloading
+2025-11-23 21:52:55,521 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:53:04,872 WARNING  * Debugger is active!
+2025-11-23 21:53:04,880 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:53:04,985 INFO Received file 1763914984_Screen_Recording_2025-11-23_200637.mp4 (ext=mp4)
+2025-11-23 21:53:05,814 INFO Prediction successful for 1763914984_Screen_Recording_2025-11-23_200637.mp4
+2025-11-23 21:53:05,816 INFO 127.0.0.1 - - [23/Nov/2025 21:53:05] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:53:54,901 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:53:54,910 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:53:56,149 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:54:01,921 WARNING  * Debugger is active!
+2025-11-23 21:54:01,932 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:54:37,859 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:54:37,860 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:54:39,691 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:54:46,300 WARNING  * Debugger is active!
+2025-11-23 21:54:46,309 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:55:05,896 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-23 21:55:05,896 INFO [33mPress CTRL+C to quit[0m
+2025-11-23 21:55:05,908 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:55:12,813 WARNING  * Debugger is active!
+2025-11-23 21:55:12,820 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:55:30,704 INFO 127.0.0.1 - - [23/Nov/2025 21:55:30] "GET / HTTP/1.1" 200 -
+2025-11-23 21:55:34,753 INFO Received file 1763915134_Screen_Recording_2025-11-23_200637.mp4 (ext=mp4)
+2025-11-23 21:55:35,528 INFO Prediction successful for 1763915134_Screen_Recording_2025-11-23_200637.mp4
+2025-11-23 21:55:35,529 INFO 127.0.0.1 - - [23/Nov/2025 21:55:35] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:58:29,096 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:58:29,104 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:58:29,105 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:58:30,189 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:58:37,258 WARNING  * Debugger is active!
+2025-11-23 21:58:37,267 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:58:52,032 INFO 127.0.0.1 - - [23/Nov/2025 21:58:52] "GET / HTTP/1.1" 200 -
+2025-11-23 21:58:55,476 INFO Models available for prediction: ['custom_cnn', 'resnet50', 'vgg16']
+2025-11-23 21:58:55,477 INFO Starting prediction for file: 1763915335_Screen_Recording_2025-11-23_200637.mp4
+2025-11-23 21:58:55,477 INFO Received file 1763915335_Screen_Recording_2025-11-23_200637.mp4 (ext=mp4)
+2025-11-23 21:58:56,216 INFO Prediction successful for 1763915335_Screen_Recording_2025-11-23_200637.mp4
+2025-11-23 21:58:56,217 INFO 127.0.0.1 - - [23/Nov/2025 21:58:56] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:59:23,875 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:59:23,884 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:59:25,717 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 21:59:33,667 WARNING  * Debugger is active!
+2025-11-23 21:59:33,678 INFO  * Debugger PIN: 872-785-174
+2025-11-23 21:59:42,882 INFO 127.0.0.1 - - [23/Nov/2025 21:59:42] "GET / HTTP/1.1" 200 -
+2025-11-23 21:59:46,655 INFO Models available for prediction: ['custom_cnn', 'resnet50', 'vgg16']
+2025-11-23 21:59:46,655 INFO Starting prediction for file: 1763915386_Screen_Recording_2025-11-23_200637.mp4
+2025-11-23 21:59:46,656 INFO Received file 1763915386_Screen_Recording_2025-11-23_200637.mp4 (ext=mp4)
+2025-11-23 21:59:47,412 INFO Prediction successful for 1763915386_Screen_Recording_2025-11-23_200637.mp4
+2025-11-23 21:59:47,413 INFO 127.0.0.1 - - [23/Nov/2025 21:59:47] "POST /predict HTTP/1.1" 200 -
+2025-11-23 21:59:54,734 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:59:54,735 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:59:54,735 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 21:59:56,038 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 22:00:01,664 WARNING  * Debugger is active!
+2025-11-23 22:00:01,671 INFO  * Debugger PIN: 872-785-174
+2025-11-23 22:00:10,976 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:00:10,977 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:00:10,977 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:00:11,975 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 22:00:19,385 WARNING  * Debugger is active!
+2025-11-23 22:00:19,395 INFO  * Debugger PIN: 872-785-174
+2025-11-23 22:01:06,368 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:01:06,377 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:01:07,630 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 22:01:14,577 WARNING  * Debugger is active!
+2025-11-23 22:01:14,585 INFO  * Debugger PIN: 872-785-174
+2025-11-23 22:01:17,765 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:01:17,773 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:01:17,773 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:01:18,702 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 22:01:25,490 WARNING  * Debugger is active!
+2025-11-23 22:01:25,499 INFO  * Debugger PIN: 872-785-174
+2025-11-23 22:01:39,607 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-23 22:01:39,608 INFO [33mPress CTRL+C to quit[0m
+2025-11-23 22:01:39,620 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 22:01:46,402 WARNING  * Debugger is active!
+2025-11-23 22:01:46,410 INFO  * Debugger PIN: 872-785-174
+2025-11-23 22:02:17,796 INFO 127.0.0.1 - - [23/Nov/2025 22:02:17] "GET / HTTP/1.1" 200 -
+2025-11-23 22:02:21,014 INFO Received file 1763915541_Screen_Recording_2025-11-23_200637.mp4 (ext=mp4)
+2025-11-23 22:02:21,740 INFO Prediction successful for 1763915541_Screen_Recording_2025-11-23_200637.mp4
+2025-11-23 22:02:21,741 INFO 127.0.0.1 - - [23/Nov/2025 22:02:21] "POST /predict HTTP/1.1" 200 -
+2025-11-23 22:02:52,017 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:02:52,017 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:02:52,018 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-23 22:02:52,882 INFO  * Restarting with watchdog (windowsapi)
+2025-11-23 22:02:58,375 WARNING  * Debugger is active!
+2025-11-23 22:02:58,382 INFO  * Debugger PIN: 872-785-174
+2025-11-24 18:36:14,772 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-24 18:36:14,773 INFO [33mPress CTRL+C to quit[0m
+2025-11-24 18:36:14,790 INFO  * Restarting with watchdog (windowsapi)
+2025-11-24 18:36:22,354 WARNING  * Debugger is active!
+2025-11-24 18:36:22,371 INFO  * Debugger PIN: 872-785-174
+2025-11-24 18:36:23,697 INFO 127.0.0.1 - - [24/Nov/2025 18:36:23] "GET / HTTP/1.1" 200 -
+2025-11-24 18:36:24,343 INFO 127.0.0.1 - - [24/Nov/2025 18:36:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-24 19:23:46,192 INFO Received file 1763992426_Screen_Recording_2025-10-27_221451.mp4 (ext=mp4)
+2025-11-24 19:23:48,397 INFO Prediction successful for 1763992426_Screen_Recording_2025-10-27_221451.mp4
+2025-11-24 19:23:48,400 INFO 127.0.0.1 - - [24/Nov/2025 19:23:48] "POST /predict HTTP/1.1" 200 -
+2025-11-24 19:23:56,571 INFO 127.0.0.1 - - [24/Nov/2025 19:23:56] "GET / HTTP/1.1" 200 -
+2025-11-24 19:24:02,286 INFO Received file 1763992442_Screen_Recording_2025-11-23_200637.mp4 (ext=mp4)
+2025-11-24 19:24:02,882 INFO Prediction successful for 1763992442_Screen_Recording_2025-11-23_200637.mp4
+2025-11-24 19:24:02,884 INFO 127.0.0.1 - - [24/Nov/2025 19:24:02] "POST /predict HTTP/1.1" 200 -
+2025-11-27 23:21:30,499 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-27 23:21:30,499 INFO [33mPress CTRL+C to quit[0m
+2025-11-27 23:21:30,512 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:21:37,258 WARNING  * Debugger is active!
+2025-11-27 23:21:37,270 INFO  * Debugger PIN: 908-524-525
+2025-11-27 23:21:37,484 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sqlalchemy\\sql\\_dml_constructors.py', reloading
+2025-11-27 23:21:37,507 INFO 127.0.0.1 - - [27/Nov/2025 23:21:37] "GET / HTTP/1.1" 200 -
+2025-11-27 23:21:37,509 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sqlalchemy\\sql\\functions.py', reloading
+2025-11-27 23:21:37,541 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sqlalchemy\\sql\\lambdas.py', reloading
+2025-11-27 23:21:37,573 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sqlalchemy\\sql\\visitors.py', reloading
+2025-11-27 23:21:37,599 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sqlalchemy\\types.py', reloading
+2025-11-27 23:21:37,631 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sqlalchemy\\sql\\sqltypes.py', reloading
+2025-11-27 23:21:37,674 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sqlalchemy\\sql\\type_api.py', reloading
+2025-11-27 23:21:37,703 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sqlparse\\__init__.py', reloading
+2025-11-27 23:21:37,717 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\srsly\\__init__.py', reloading
+2025-11-27 23:21:37,729 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sse_starlette\\__init__.py', reloading
+2025-11-27 23:21:37,756 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sse_starlette\\event.py', reloading
+2025-11-27 23:21:37,778 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\sse_starlette\\sse.py', reloading
+2025-11-27 23:21:37,795 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\stack_data\\__init__.py', reloading
+2025-11-27 23:21:37,819 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\stanio\\csv.py', reloading
+2025-11-27 23:21:37,835 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\stanio\\reshape.py', reloading
+2025-11-27 23:21:37,850 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\statsmodels\\__init__.py', reloading
+2025-11-27 23:21:37,863 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\statsmodels\\_version.py', reloading
+2025-11-27 23:21:37,879 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\streamlit\\__init__.py', reloading
+2025-11-27 23:21:37,916 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\streamlit\\commands\\echo.py', reloading
+2025-11-27 23:21:37,937 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\streamlit\\commands\\logo.py', reloading
+2025-11-27 23:21:37,956 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\streamlit\\commands\\navigation.py', reloading
+2025-11-27 23:21:37,978 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\streamlit\\navigation\\page.py', reloading
+2025-11-27 23:21:37,997 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\streamlit\\elements\\spinner.py', reloading
+2025-11-27 23:21:38,017 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\streamlit\\commands\\page_config.py', reloading
+2025-11-27 23:21:38,036 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\streamlit\\commands\\execution_control.py', reloading
+2025-11-27 23:21:38,055 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tenacity\\__init__.py', reloading
+2025-11-27 23:21:38,081 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tenacity\\retry.py', reloading
+2025-11-27 23:21:38,096 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tenacity\\nap.py', reloading
+2025-11-27 23:21:38,113 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tenacity\\stop.py', reloading
+2025-11-27 23:21:38,128 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tenacity\\wait.py', reloading
+2025-11-27 23:21:38,143 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tenacity\\before.py', reloading
+2025-11-27 23:21:38,159 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tenacity\\after.py', reloading
+2025-11-27 23:21:38,173 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tenacity\\before_sleep.py', reloading
+2025-11-27 23:21:38,188 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tenacity\\asyncio\\__init__.py', reloading
+2025-11-27 23:21:38,206 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tensorboard\\__init__.py', reloading
+2025-11-27 23:21:38,225 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tensorboard_data_server\\__init__.py', reloading
+2025-11-27 23:21:38,240 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tensorflow\\__init__.py', reloading
+2025-11-27 23:21:38,328 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\termcolor\\__init__.py', reloading
+2025-11-27 23:21:38,343 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\termcolor\\termcolor.py', reloading
+2025-11-27 23:21:38,356 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\textblob\\__init__.py', reloading
+2025-11-27 23:21:38,373 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\textblob\\blob.py', reloading
+2025-11-27 23:21:38,399 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\textstat\\__init__.py', reloading
+2025-11-27 23:21:38,413 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tf_keras\\__init__.py', reloading
+2025-11-27 23:21:38,426 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\thinc\\__init__.py', reloading
+2025-11-27 23:21:38,439 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\thinc\\about.py', reloading
+2025-11-27 23:21:38,451 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\thinc\\config.py', reloading
+2025-11-27 23:21:38,469 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\thop\\__init__.py', reloading
+2025-11-27 23:21:38,483 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tifffile\\__init__.py', reloading
+2025-11-27 23:21:38,541 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tifffile\\tifffile.py', reloading
+2025-11-27 23:21:38,664 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\tiktoken\\__init__.py', reloading
+2025-11-27 23:21:39,609 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:21:47,922 WARNING  * Debugger is active!
+2025-11-27 23:21:47,932 INFO  * Debugger PIN: 908-524-525
+2025-11-27 23:21:48,110 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_v2\\configuration_deepseek_v2.py', reloading
+2025-11-27 23:21:48,111 INFO 127.0.0.1 - - [27/Nov/2025 23:21:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-27 23:21:48,124 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_v2\\modeling_deepseek_v2.py', reloading
+2025-11-27 23:21:48,145 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_v3\\__init__.py', reloading
+2025-11-27 23:21:48,164 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_v3\\configuration_deepseek_v3.py', reloading
+2025-11-27 23:21:48,177 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_v3\\modeling_deepseek_v3.py', reloading
+2025-11-27 23:21:48,197 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl\\__init__.py', reloading
+2025-11-27 23:21:48,211 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl\\configuration_deepseek_vl.py', reloading
+2025-11-27 23:21:48,224 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl\\image_processing_deepseek_vl.py', reloading
+2025-11-27 23:21:48,239 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl\\image_processing_deepseek_vl_fast.py', reloading
+2025-11-27 23:21:48,254 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl\\modeling_deepseek_vl.py', reloading
+2025-11-27 23:21:48,268 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl\\processing_deepseek_vl.py', reloading
+2025-11-27 23:21:48,285 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl_hybrid\\__init__.py', reloading
+2025-11-27 23:21:48,298 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl_hybrid\\configuration_deepseek_vl_hybrid.py', reloading
+2025-11-27 23:21:48,313 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl_hybrid\\image_processing_deepseek_vl_hybrid.py', reloading
+2025-11-27 23:21:48,329 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl_hybrid\\image_processing_deepseek_vl_hybrid_fast.py', reloading
+2025-11-27 23:21:48,345 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl_hybrid\\modeling_deepseek_vl_hybrid.py', reloading
+2025-11-27 23:21:48,363 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deepseek_vl_hybrid\\processing_deepseek_vl_hybrid.py', reloading
+2025-11-27 23:21:48,380 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deformable_detr\\__init__.py', reloading
+2025-11-27 23:21:48,398 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deformable_detr\\configuration_deformable_detr.py', reloading
+2025-11-27 23:21:48,416 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deformable_detr\\feature_extraction_deformable_detr.py', reloading
+2025-11-27 23:21:48,438 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deformable_detr\\image_processing_deformable_detr.py', reloading
+2025-11-27 23:21:48,460 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deformable_detr\\image_processing_deformable_detr_fast.py', reloading
+2025-11-27 23:21:48,483 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deformable_detr\\modeling_deformable_detr.py', reloading
+2025-11-27 23:21:48,508 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deit\\__init__.py', reloading
+2025-11-27 23:21:48,526 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deit\\configuration_deit.py', reloading
+2025-11-27 23:21:48,542 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deit\\feature_extraction_deit.py', reloading
+2025-11-27 23:21:48,559 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deit\\image_processing_deit.py', reloading
+2025-11-27 23:21:48,576 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deit\\image_processing_deit_fast.py', reloading
+2025-11-27 23:21:48,594 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deit\\modeling_deit.py', reloading
+2025-11-27 23:21:48,617 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deit\\modeling_tf_deit.py', reloading
+2025-11-27 23:21:48,638 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\__init__.py', reloading
+2025-11-27 23:21:48,673 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\deta\\__init__.py', reloading
+2025-11-27 23:21:48,690 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\deta\\configuration_deta.py', reloading
+2025-11-27 23:21:48,710 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\deta\\image_processing_deta.py', reloading
+2025-11-27 23:21:48,740 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\deta\\modeling_deta.py', reloading
+2025-11-27 23:21:48,774 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\efficientformer\\__init__.py', reloading
+2025-11-27 23:21:48,791 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\efficientformer\\configuration_efficientformer.py', reloading
+2025-11-27 23:21:48,809 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\efficientformer\\image_processing_efficientformer.py', reloading
+2025-11-27 23:21:48,829 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\efficientformer\\modeling_efficientformer.py', reloading
+2025-11-27 23:21:48,854 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\efficientformer\\modeling_tf_efficientformer.py', reloading
+2025-11-27 23:21:48,875 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\ernie_m\\__init__.py', reloading
+2025-11-27 23:21:48,892 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\ernie_m\\configuration_ernie_m.py', reloading
+2025-11-27 23:21:48,912 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\ernie_m\\modeling_ernie_m.py', reloading
+2025-11-27 23:21:48,936 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\ernie_m\\tokenization_ernie_m.py', reloading
+2025-11-27 23:21:48,952 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\gptsan_japanese\\__init__.py', reloading
+2025-11-27 23:21:48,968 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\gptsan_japanese\\configuration_gptsan_japanese.py', reloading
+2025-11-27 23:21:48,989 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\gptsan_japanese\\modeling_gptsan_japanese.py', reloading
+2025-11-27 23:21:49,017 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\gptsan_japanese\\tokenization_gptsan_japanese.py', reloading
+2025-11-27 23:21:49,031 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\graphormer\\__init__.py', reloading
+2025-11-27 23:21:49,050 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\graphormer\\configuration_graphormer.py', reloading
+2025-11-27 23:21:49,069 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\graphormer\\modeling_graphormer.py', reloading
+2025-11-27 23:21:49,088 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\jukebox\\__init__.py', reloading
+2025-11-27 23:21:49,108 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\jukebox\\configuration_jukebox.py', reloading
+2025-11-27 23:21:49,133 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\jukebox\\modeling_jukebox.py', reloading
+2025-11-27 23:21:49,165 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\jukebox\\tokenization_jukebox.py', reloading
+2025-11-27 23:21:49,181 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\mctct\\__init__.py', reloading
+2025-11-27 23:21:49,197 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\mctct\\configuration_mctct.py', reloading
+2025-11-27 23:21:49,216 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\mctct\\feature_extraction_mctct.py', reloading
+2025-11-27 23:21:49,234 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\mctct\\modeling_mctct.py', reloading
+2025-11-27 23:21:49,253 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\mctct\\processing_mctct.py', reloading
+2025-11-27 23:21:49,272 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\deprecated\\mega\\__init__.py', reloading
+2025-11-27 23:21:50,105 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:21:58,228 WARNING  * Debugger is active!
+2025-11-27 23:21:58,239 INFO  * Debugger PIN: 908-524-525
+2025-11-27 23:21:58,422 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\lxmert\\modeling_lxmert.py', reloading
+2025-11-27 23:21:58,441 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\lxmert\\modeling_tf_lxmert.py', reloading
+2025-11-27 23:21:58,468 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\lxmert\\tokenization_lxmert.py', reloading
+2025-11-27 23:21:58,486 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\lxmert\\tokenization_lxmert_fast.py', reloading
+2025-11-27 23:21:58,501 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\m2m_100\\__init__.py', reloading
+2025-11-27 23:21:58,519 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\m2m_100\\configuration_m2m_100.py', reloading
+2025-11-27 23:21:58,538 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\m2m_100\\modeling_m2m_100.py', reloading
+2025-11-27 23:21:58,563 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\m2m_100\\tokenization_m2m_100.py', reloading
+2025-11-27 23:21:58,578 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mamba\\__init__.py', reloading
+2025-11-27 23:21:58,595 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mamba\\configuration_mamba.py', reloading
+2025-11-27 23:21:58,614 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mamba\\modeling_mamba.py', reloading
+2025-11-27 23:21:58,633 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mamba2\\__init__.py', reloading
+2025-11-27 23:21:58,649 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mamba2\\configuration_mamba2.py', reloading
+2025-11-27 23:21:58,670 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mamba2\\modeling_mamba2.py', reloading
+2025-11-27 23:21:58,690 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\marian\\__init__.py', reloading
+2025-11-27 23:21:58,708 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\marian\\configuration_marian.py', reloading
+2025-11-27 23:21:58,731 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\marian\\modeling_flax_marian.py', reloading
+2025-11-27 23:21:58,762 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\marian\\modeling_marian.py', reloading
+2025-11-27 23:21:58,792 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\marian\\modeling_tf_marian.py', reloading
+2025-11-27 23:21:58,816 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\marian\\tokenization_marian.py', reloading
+2025-11-27 23:21:58,833 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\markuplm\\__init__.py', reloading
+2025-11-27 23:21:58,849 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\markuplm\\configuration_markuplm.py', reloading
+2025-11-27 23:21:58,867 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\markuplm\\feature_extraction_markuplm.py', reloading
+2025-11-27 23:21:58,892 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\markuplm\\modeling_markuplm.py', reloading
+2025-11-27 23:21:58,915 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\markuplm\\processing_markuplm.py', reloading
+2025-11-27 23:21:58,935 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\markuplm\\tokenization_markuplm.py', reloading
+2025-11-27 23:21:58,960 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\markuplm\\tokenization_markuplm_fast.py', reloading
+2025-11-27 23:21:58,978 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mask2former\\__init__.py', reloading
+2025-11-27 23:21:58,995 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mask2former\\configuration_mask2former.py', reloading
+2025-11-27 23:21:59,017 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mask2former\\image_processing_mask2former.py', reloading
+2025-11-27 23:21:59,035 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mask2former\\image_processing_mask2former_fast.py', reloading
+2025-11-27 23:21:59,061 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mask2former\\modeling_mask2former.py', reloading
+2025-11-27 23:21:59,091 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\maskformer\\__init__.py', reloading
+2025-11-27 23:21:59,109 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\maskformer\\configuration_maskformer.py', reloading
+2025-11-27 23:21:59,127 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\maskformer\\configuration_maskformer_swin.py', reloading
+2025-11-27 23:21:59,143 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\maskformer\\feature_extraction_maskformer.py', reloading
+2025-11-27 23:21:59,161 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\maskformer\\image_processing_maskformer.py', reloading
+2025-11-27 23:21:59,183 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\maskformer\\image_processing_maskformer_fast.py', reloading
+2025-11-27 23:21:59,206 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\maskformer\\modeling_maskformer.py', reloading
+2025-11-27 23:21:59,233 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\maskformer\\modeling_maskformer_swin.py', reloading
+2025-11-27 23:21:59,255 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mbart\\__init__.py', reloading
+2025-11-27 23:21:59,272 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mbart\\configuration_mbart.py', reloading
+2025-11-27 23:21:59,295 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mbart\\modeling_flax_mbart.py', reloading
+2025-11-27 23:21:59,325 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mbart\\modeling_mbart.py', reloading
+2025-11-27 23:21:59,350 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mbart\\modeling_tf_mbart.py', reloading
+2025-11-27 23:21:59,374 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mbart\\tokenization_mbart.py', reloading
+2025-11-27 23:21:59,393 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mbart\\tokenization_mbart_fast.py', reloading
+2025-11-27 23:21:59,407 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mbart50\\__init__.py', reloading
+2025-11-27 23:21:59,425 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mbart50\\tokenization_mbart50.py', reloading
+2025-11-27 23:21:59,444 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mbart50\\tokenization_mbart50_fast.py', reloading
+2025-11-27 23:21:59,460 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\megatron_bert\\__init__.py', reloading
+2025-11-27 23:21:59,476 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\megatron_bert\\configuration_megatron_bert.py', reloading
+2025-11-27 23:21:59,497 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\megatron_bert\\modeling_megatron_bert.py', reloading
+2025-11-27 23:21:59,520 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mgp_str\\__init__.py', reloading
+2025-11-27 23:21:59,537 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mgp_str\\configuration_mgp_str.py', reloading
+2025-11-27 23:21:59,556 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\mgp_str\\modeling_mgp_str.py', reloading
+2025-11-27 23:22:00,445 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:22:08,617 WARNING  * Debugger is active!
+2025-11-27 23:22:08,629 INFO  * Debugger PIN: 908-524-525
+2025-11-27 23:22:08,825 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\timesformer\\modeling_timesformer.py', reloading
+2025-11-27 23:22:08,841 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\timm_backbone\\__init__.py', reloading
+2025-11-27 23:22:08,858 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\timm_backbone\\configuration_timm_backbone.py', reloading
+2025-11-27 23:22:08,874 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\timm_backbone\\modeling_timm_backbone.py', reloading
+2025-11-27 23:22:08,890 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\timm_wrapper\\__init__.py', reloading
+2025-11-27 23:22:08,907 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\timm_wrapper\\configuration_timm_wrapper.py', reloading
+2025-11-27 23:22:08,925 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\timm_wrapper\\modeling_timm_wrapper.py', reloading
+2025-11-27 23:22:08,943 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\trocr\\__init__.py', reloading
+2025-11-27 23:22:08,961 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\trocr\\configuration_trocr.py', reloading
+2025-11-27 23:22:08,980 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\trocr\\modeling_trocr.py', reloading
+2025-11-27 23:22:08,999 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\trocr\\processing_trocr.py', reloading
+2025-11-27 23:22:09,016 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\tvp\\__init__.py', reloading
+2025-11-27 23:22:09,033 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\tvp\\configuration_tvp.py', reloading
+2025-11-27 23:22:09,052 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\tvp\\image_processing_tvp.py', reloading
+2025-11-27 23:22:09,071 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\tvp\\modeling_tvp.py', reloading
+2025-11-27 23:22:09,091 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\tvp\\processing_tvp.py', reloading
+2025-11-27 23:22:09,107 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\udop\\__init__.py', reloading
+2025-11-27 23:22:09,124 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\udop\\configuration_udop.py', reloading
+2025-11-27 23:22:09,144 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\udop\\modeling_udop.py', reloading
+2025-11-27 23:22:09,173 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\udop\\processing_udop.py', reloading
+2025-11-27 23:22:09,193 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\udop\\tokenization_udop.py', reloading
+2025-11-27 23:22:09,213 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\udop\\tokenization_udop_fast.py', reloading
+2025-11-27 23:22:09,231 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\umt5\\__init__.py', reloading
+2025-11-27 23:22:09,250 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\umt5\\configuration_umt5.py', reloading
+2025-11-27 23:22:09,274 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\umt5\\modeling_umt5.py', reloading
+2025-11-27 23:22:09,301 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\unispeech\\__init__.py', reloading
+2025-11-27 23:22:09,317 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\unispeech\\configuration_unispeech.py', reloading
+2025-11-27 23:22:09,333 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\unispeech\\modeling_unispeech.py', reloading
+2025-11-27 23:22:09,353 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\unispeech_sat\\__init__.py', reloading
+2025-11-27 23:22:09,372 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\unispeech_sat\\configuration_unispeech_sat.py', reloading
+2025-11-27 23:22:09,386 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\unispeech_sat\\modeling_unispeech_sat.py', reloading
+2025-11-27 23:22:09,412 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\univnet\\__init__.py', reloading
+2025-11-27 23:22:09,428 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\univnet\\configuration_univnet.py', reloading
+2025-11-27 23:22:09,446 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\univnet\\feature_extraction_univnet.py', reloading
+2025-11-27 23:22:09,466 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\univnet\\modeling_univnet.py', reloading
+2025-11-27 23:22:09,482 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\upernet\\__init__.py', reloading
+2025-11-27 23:22:09,498 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\upernet\\configuration_upernet.py', reloading
+2025-11-27 23:22:09,515 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\upernet\\modeling_upernet.py', reloading
+2025-11-27 23:22:09,531 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\video_llava\\__init__.py', reloading
+2025-11-27 23:22:09,548 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\video_llava\\configuration_video_llava.py', reloading
+2025-11-27 23:22:09,565 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\video_llava\\image_processing_video_llava.py', reloading
+2025-11-27 23:22:09,585 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\video_llava\\modeling_video_llava.py', reloading
+2025-11-27 23:22:09,605 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\video_llava\\processing_video_llava.py', reloading
+2025-11-27 23:22:09,621 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\videomae\\__init__.py', reloading
+2025-11-27 23:22:09,638 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\videomae\\configuration_videomae.py', reloading
+2025-11-27 23:22:09,652 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\videomae\\feature_extraction_videomae.py', reloading
+2025-11-27 23:22:09,669 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\videomae\\image_processing_videomae.py', reloading
+2025-11-27 23:22:09,690 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\videomae\\modeling_videomae.py', reloading
+2025-11-27 23:22:09,711 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vilt\\__init__.py', reloading
+2025-11-27 23:22:09,729 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vilt\\configuration_vilt.py', reloading
+2025-11-27 23:22:09,746 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vilt\\feature_extraction_vilt.py', reloading
+2025-11-27 23:22:09,763 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vilt\\image_processing_vilt.py', reloading
+2025-11-27 23:22:09,780 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vilt\\image_processing_vilt_fast.py', reloading
+2025-11-27 23:22:09,800 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vilt\\modeling_vilt.py', reloading
+2025-11-27 23:22:09,822 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vilt\\processing_vilt.py', reloading
+2025-11-27 23:22:09,838 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vipllava\\__init__.py', reloading
+2025-11-27 23:22:09,854 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vipllava\\configuration_vipllava.py', reloading
+2025-11-27 23:22:09,869 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vipllava\\modeling_vipllava.py', reloading
+2025-11-27 23:22:09,886 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vision_encoder_decoder\\__init__.py', reloading
+2025-11-27 23:22:09,902 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vision_encoder_decoder\\configuration_vision_encoder_decoder.py', reloading
+2025-11-27 23:22:09,924 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vision_encoder_decoder\\modeling_flax_vision_encoder_decoder.py', reloading
+2025-11-27 23:22:09,946 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vision_encoder_decoder\\modeling_tf_vision_encoder_decoder.py', reloading
+2025-11-27 23:22:09,967 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\transformers\\models\\vision_encoder_decoder\\modeling_vision_encoder_decoder.py', reloading
+2025-11-27 23:22:10,834 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:22:18,964 WARNING  * Debugger is active!
+2025-11-27 23:22:18,974 INFO  * Debugger PIN: 908-524-525
+2025-11-27 23:23:57,204 INFO Received file 1764266037_Screenshot_2025-11-23_211748.png (ext=png)
+2025-11-27 23:23:57,953 INFO Prediction successful for 1764266037_Screenshot_2025-11-23_211748.png
+2025-11-27 23:23:57,954 INFO 127.0.0.1 - - [27/Nov/2025 23:23:57] "POST /predict HTTP/1.1" 200 -
+2025-11-27 23:26:34,494 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\IPython\\display.py', reloading
+2025-11-27 23:26:34,518 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\IPython\\core\\display_functions.py', reloading
+2025-11-27 23:26:34,555 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\IPython\\lib\\display.py', reloading
+2025-11-27 23:26:34,712 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\torch\\__future__.py', reloading
+2025-11-27 23:26:35,045 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\torch\\_utils.py', reloading
+2025-11-27 23:26:36,013 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:26:42,689 WARNING  * Debugger is active!
+2025-11-27 23:26:42,697 INFO  * Debugger PIN: 908-524-525
+2025-11-27 23:27:34,181 INFO Received file 1764266254_Screenshot_2025-11-23_192113.png (ext=png)
+2025-11-27 23:27:34,566 INFO Prediction successful for 1764266254_Screenshot_2025-11-23_192113.png
+2025-11-27 23:27:34,568 INFO 127.0.0.1 - - [27/Nov/2025 23:27:34] "POST /predict HTTP/1.1" 200 -
+2025-11-27 23:27:41,396 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:27:41,397 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:27:41,397 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:27:42,565 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:27:49,787 WARNING  * Debugger is active!
+2025-11-27 23:27:49,798 INFO  * Debugger PIN: 908-524-525
+2025-11-27 23:28:19,028 INFO Received file 1764266299_Screen_Recording_2025-11-23_200637.mp4 (ext=mp4)
+2025-11-27 23:28:19,952 INFO Prediction successful for 1764266299_Screen_Recording_2025-11-23_200637.mp4
+2025-11-27 23:28:19,954 INFO 127.0.0.1 - - [27/Nov/2025 23:28:19] "POST /predict HTTP/1.1" 200 -
+2025-11-27 23:29:37,699 INFO  * Detected change in 'C:\\Users\\TARANG KISHOR\\AppData\\Roaming\\Python\\Python313\\site-packages\\_pytest\\junitxml.py', reloading
+2025-11-27 23:29:39,334 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:29:47,021 WARNING  * Debugger is active!
+2025-11-27 23:29:47,033 INFO  * Debugger PIN: 908-524-525
+2025-11-27 23:29:55,474 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:29:55,482 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:29:55,482 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:29:56,688 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:30:02,375 WARNING  * Debugger is active!
+2025-11-27 23:30:02,382 INFO  * Debugger PIN: 908-524-525
+2025-11-27 23:30:17,478 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:30:17,487 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:30:17,487 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:30:18,312 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:54:12,270 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-27 23:54:12,271 INFO [33mPress CTRL+C to quit[0m
+2025-11-27 23:54:12,283 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:54:18,559 WARNING  * Debugger is active!
+2025-11-27 23:54:18,567 INFO  * Debugger PIN: 908-524-525
+2025-11-27 23:54:18,727 INFO 127.0.0.1 - - [27/Nov/2025 23:54:18] "GET / HTTP/1.1" 200 -
+2025-11-27 23:54:32,626 INFO Received file 1764267872_Screenshot_2025-11-23_211851.png (ext=png)
+2025-11-27 23:54:32,948 INFO Prediction successful for 1764267872_Screenshot_2025-11-23_211851.png
+2025-11-27 23:54:32,961 INFO 127.0.0.1 - - [27/Nov/2025 23:54:32] "POST /predict HTTP/1.1" 200 -
+2025-11-27 23:54:49,131 INFO Received file 1764267889_Screenshot_2024-05-28_195250.png (ext=png)
+2025-11-27 23:54:49,221 INFO Prediction successful for 1764267889_Screenshot_2024-05-28_195250.png
+2025-11-27 23:54:49,222 INFO 127.0.0.1 - - [27/Nov/2025 23:54:49] "POST /predict HTTP/1.1" 200 -
+2025-11-27 23:55:06,596 INFO Received file 1764267906_Screenshot_2025-11-23_192322.png (ext=png)
+2025-11-27 23:55:06,659 INFO Prediction successful for 1764267906_Screenshot_2025-11-23_192322.png
+2025-11-27 23:55:06,670 INFO 127.0.0.1 - - [27/Nov/2025 23:55:06] "POST /predict HTTP/1.1" 200 -
+2025-11-27 23:55:57,789 INFO Received file 1764267957_Screenshot_2025-11-23_192202.png (ext=png)
+2025-11-27 23:55:57,855 INFO Prediction successful for 1764267957_Screenshot_2025-11-23_192202.png
+2025-11-27 23:55:57,856 INFO 127.0.0.1 - - [27/Nov/2025 23:55:57] "POST /predict HTTP/1.1" 200 -
+2025-11-27 23:57:54,310 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:57:54,310 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:57:54,311 INFO  * Detected change in 'c:\\Users\\TARANG KISHOR\\Desktop\\PROJECTS\\PXY\\app.py', reloading
+2025-11-27 23:57:55,355 INFO  * Restarting with watchdog (windowsapi)
+2025-11-27 23:58:00,449 WARNING  * Debugger is active!
+2025-11-27 23:58:00,456 INFO  * Debugger PIN: 908-524-525
+2025-11-28 00:09:48,821 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.34:5000
+2025-11-28 00:09:48,821 INFO [33mPress CTRL+C to quit[0m
+2025-11-28 00:09:48,831 INFO  * Restarting with watchdog (windowsapi)
+2025-11-28 00:09:54,699 WARNING  * Debugger is active!
+2025-11-28 00:09:54,706 INFO  * Debugger PIN: 908-524-525
+2025-11-28 00:10:00,558 INFO 127.0.0.1 - - [28/Nov/2025 00:10:00] "GET / HTTP/1.1" 200 -
+2025-11-28 00:10:22,901 INFO Received file 1764268822_Screenshot_2025-11-23_192322.png (ext=png)
+2025-11-28 00:10:23,179 INFO Prediction successful for 1764268822_Screenshot_2025-11-23_192322.png
+2025-11-28 00:10:23,180 INFO 127.0.0.1 - - [28/Nov/2025 00:10:23] "POST /predict HTTP/1.1" 200 -

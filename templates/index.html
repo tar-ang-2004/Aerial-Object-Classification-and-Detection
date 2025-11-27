@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird vs Drone Detection | AI-Powered Classification</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        
+        @keyframes gradient {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            33% { transform: translateY(-20px) rotate(3deg); }
+            66% { transform: translateY(-10px) rotate(-3deg); }
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.3); }
+            50% { box-shadow: 0 0 40px rgba(99, 102, 241, 0.6), 0 0 60px rgba(139, 92, 246, 0.4); }
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(-45deg, #0f172a, #1e293b, #312e81, #1e1b4b);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+        
+        .glass {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .glass-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        
+        .hover-lift {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-8px) scale(1.02);
+        }
+        
+        @keyframes shimmer {
+            0% { background-position: -1000px 0; }
+            100% { background-position: 1000px 0; }
+        }
+        
+        .shimmer {
+            animation: shimmer 2s infinite linear;
+            background: linear-gradient(to right, transparent 0%, rgba(255,255,255,0.1) 50%, transparent 100%);
+            background-size: 1000px 100%;
+        }
+        
+        .progress-bar {
+            transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .spinner { animation: spin 1s linear infinite; }
+        
+        @keyframes scale-in {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        .scale-in { animation: scale-in 0.5s cubic-bezier(0.16, 1, 0.3, 1); }
+        
+        @keyframes slide-up {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .slide-up { animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .neon-border {
+            box-shadow: 0 0 30px rgba(99, 102, 241, 0.4), inset 0 0 30px rgba(139, 92, 246, 0.1);
+        }
+        
+        .floating-orb {
+            animation: float 8s ease-in-out infinite;
+        }
+        
+        .preview-popup {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            max-width: 400px;
+            width: max-content;
+        }
+        
+        .preview-trigger:hover .preview-popup {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-20px);
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen relative overflow-x-hidden">
+    
+    <!-- Floating Orbs Background -->
+    <div class="fixed inset-0 pointer-events-none overflow-hidden">
+        <div class="absolute top-20 left-10 w-72 h-72 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 floating-orb"></div>
+        <div class="absolute top-40 right-20 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 floating-orb" style="animation-delay: 2s;"></div>
+        <div class="absolute -bottom-20 left-1/3 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 floating-orb" style="animation-delay: 4s;"></div>
+    </div>
+
+    <div class="relative z-10 container mx-auto px-4 py-8 max-w-7xl">
+        
+        <!-- Header -->
+        <header class="text-center mb-16 slide-up">
+            <div class="inline-block mb-6">
+                <div class="glass px-6 py-3 rounded-full">
+                    <span class="text-indigo-300 font-semibold text-sm tracking-wider uppercase flex items-center gap-2">
+                        <i class="fas fa-microchip"></i>
+                        Powered by Deep Learning
+                    </span>
+                </div>
+            </div>
+            <h1 class="text-6xl md:text-7xl font-black mb-6 leading-tight">
+                <span class="gradient-text">Bird vs Drone</span>
+                <br>
+                <span class="text-white">Detection</span>
+            </h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+                Advanced AI-powered classification system using ensemble neural networks for real-time detection
+            </p>
+        </header>
+
+        <div class="grid lg:grid-cols-2 gap-8 mb-12">
+            
+            <!-- Upload Section -->
+            <div class="glass-card rounded-3xl p-8 hover-lift scale-in">
+                <div class="mb-6">
+                    <h2 class="text-2xl font-bold text-white mb-2 flex items-center gap-3">
+                        <i class="fas fa-cloud-upload-alt text-indigo-400"></i>
+                        Upload Media
+                    </h2>
+                    <p class="text-gray-400 text-sm">Drag & drop or click to select your file</p>
+                </div>
+                
+                <div id="dropZone" class="relative border-2 border-dashed border-indigo-500/30 rounded-2xl p-12 text-center cursor-pointer transition-all duration-300 hover:border-indigo-400 hover:bg-white/5 group">
+                    <input type="file" id="fileInput" class="hidden" accept="image/*,video/*,.gif">
+                    
+                    <div class="text-center">
+                        <div class="inline-block mb-4 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fas fa-file-upload text-6xl text-indigo-400"></i>
+                        </div>
+                        <p class="text-lg font-semibold text-white mb-2">Drop your file here</p>
+                        <p class="text-sm text-gray-400 mb-4">or click to browse</p>
+                        <div class="flex flex-wrap gap-2 justify-center text-xs text-gray-500">
+                            <span class="px-3 py-1 bg-white/5 rounded-full">JPG</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-full">PNG</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-full">GIF</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-full">MP4</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-full">AVI</span>
+                            <span class="px-3 py-1 bg-white/5 rounded-full">MOV</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- File Info with Hover Preview -->
+                <div id="fileInfo" class="hidden mt-6 p-4 glass rounded-xl preview-trigger relative">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-file text-indigo-400"></i>
+                            <div>
+                                <p id="fileName" class="font-semibold text-white text-sm"></p>
+                                <p id="fileSize" class="text-xs text-gray-400"></p>
+                            </div>
+                        </div>
+                        <button onclick="clearFile()" class="text-red-400 hover:text-red-300 transition-colors">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Hover Popup Preview -->
+                    <div class="preview-popup">
+                        <div class="glass-card rounded-xl p-2 shadow-2xl border-2 border-indigo-500/30">
+                            <img id="previewPopup" class="rounded-lg max-h-64 w-auto" alt="Preview" style="display: none;">
+                            <video id="videoPreviewPopup" class="rounded-lg max-h-64 w-auto" muted loop autoplay style="display: none;"></video>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analyze Button -->
+                <button id="analyzeBtn" class="hidden w-full mt-6 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/50 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100">
+                    <i class="fas fa-brain mr-2"></i>
+                    Analyze with AI
+                </button>
+            </div>
+
+            <!-- Results Section -->
+            <div class="glass-card rounded-3xl p-8 scale-in" style="animation-delay: 0.1s;">
+                <div class="mb-6">
+                    <h2 class="text-2xl font-bold text-white mb-2 flex items-center gap-3">
+                        <i class="fas fa-chart-bar text-purple-400"></i>
+                        Detection Results
+                    </h2>
+                    <p class="text-gray-400 text-sm">AI-powered classification analysis</p>
+                </div>
+                
+                <!-- Loading State -->
+                <div id="loading" class="hidden text-center py-12">
+                    <div class="inline-block w-16 h-16 border-4 border-indigo-500/30 border-t-indigo-500 rounded-full spinner mb-4"></div>
+                    <p class="text-white font-semibold mb-2">Analyzing with AI models...</p>
+                    <p class="text-gray-400 text-sm">This may take a few seconds</p>
+                </div>
+                
+                <!-- Results -->
+                <div id="results" class="hidden space-y-6">
+                    <!-- Main Result -->
+                    <div class="relative overflow-hidden rounded-2xl p-6 neon-border" style="animation: pulse-glow 3s ease-in-out infinite;">
+                        <div class="absolute inset-0 bg-gradient-to-br from-indigo-600/20 to-purple-600/20"></div>
+                        <div class="relative z-10">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <i id="resultIcon" class="text-4xl"></i>
+                                    <div>
+                                        <p class="text-sm text-gray-400 font-medium uppercase tracking-wider">Detection</p>
+                                        <h3 id="resultLabel" class="text-3xl font-black text-white"></h3>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <p class="text-sm text-gray-400 font-medium uppercase tracking-wider">Confidence</p>
+                                    <p id="resultConfidence" class="text-3xl font-black text-white"></p>
+                                </div>
+                            </div>
+                            
+                            <!-- Progress Bar -->
+                            <div class="h-3 bg-white/10 rounded-full overflow-hidden">
+                                <div id="confidenceBar" class="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 progress-bar rounded-full"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Model Predictions -->
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                            <i class="fas fa-network-wired text-indigo-400"></i>
+                            Model Predictions
+                        </h4>
+                        <div id="modelPredictions" class="space-y-3">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Empty State -->
+                <div id="emptyState" class="text-center py-12">
+                    <div class="inline-block p-6 glass rounded-full mb-4">
+                        <i class="fas fa-robot text-5xl text-gray-600"></i>
+                    </div>
+                    <p class="text-gray-400 font-medium">Upload a file to see AI predictions</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="grid md:grid-cols-3 gap-6 mb-12">
+            <div class="glass-card rounded-2xl p-6 hover-lift" style="animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1); animation-delay: 0.2s;">
+                <div class="w-12 h-12 bg-indigo-500/20 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fas fa-layer-group text-2xl text-indigo-400"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">Ensemble Models</h3>
+                <p class="text-gray-400 text-sm">Combines predictions from CustomCNN, ResNet50, and VGG16 for superior accuracy</p>
+            </div>
+            <div class="glass-card rounded-2xl p-6 hover-lift" style="animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1); animation-delay: 0.3s;">
+                <div class="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fas fa-bolt text-2xl text-purple-400"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">GPU Accelerated</h3>
+                <p class="text-gray-400 text-sm">Powered by CUDA for lightning-fast inference and real-time processing</p>
+            </div>
+            <div class="glass-card rounded-2xl p-6 hover-lift" style="animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1); animation-delay: 0.4s;">
+                <div class="w-12 h-12 bg-pink-500/20 rounded-xl flex items-center justify-center mb-4">
+                    <i class="fas fa-video text-2xl text-pink-400"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">Multi-Format Support</h3>
+                <p class="text-gray-400 text-sm">Analyze images, animated GIFs, and video files with frame-by-frame detection</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 text-sm">
+            <p>&copy; 2025 Bird vs Drone Detection. Powered by PyTorch & Flask.</p>
+        </footer>
+    </div>
+
+    <script>
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+        const fileInfo = document.getElementById('fileInfo');
+        const fileName = document.getElementById('fileName');
+        const fileSize = document.getElementById('fileSize');
+        const previewContainer = document.getElementById('previewContainer');
+        const preview = document.getElementById('preview');
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const loading = document.getElementById('loading');
+        const results = document.getElementById('results');
+        const emptyState = document.getElementById('emptyState');
+
+        // Drag and drop
+        dropZone.addEventListener('click', () => fileInput.click());
+        
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.classList.add('border-indigo-400', 'bg-white/10', 'scale-105');
+        });
+        
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.classList.remove('border-indigo-400', 'bg-white/10', 'scale-105');
+        });
+        
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('border-indigo-400', 'bg-white/10', 'scale-105');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                handleFile(files[0]);
+            }
+        });
+        
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                handleFile(e.target.files[0]);
+            }
+        });
+
+        function handleFile(file) {
+            fileName.textContent = file.name;
+            fileSize.textContent = (file.size / 1024 / 1024).toFixed(2) + ' MB';
+            fileInfo.classList.remove('hidden');
+            analyzeBtn.classList.remove('hidden');
+            
+            const previewPopup = document.getElementById('previewPopup');
+            const videoPreviewPopup = document.getElementById('videoPreviewPopup');
+            
+            // Reset previews
+            previewPopup.style.display = 'none';
+            videoPreviewPopup.style.display = 'none';
+            
+            if (file.type.startsWith('image/')) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    previewPopup.src = e.target.result;
+                    previewPopup.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            } else if (file.type.startsWith('video/')) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    videoPreviewPopup.src = e.target.result;
+                    videoPreviewPopup.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+            
+            results.classList.add('hidden');
+            emptyState.classList.add('hidden');
+        }
+
+        function clearFile() {
+            fileInput.value = '';
+            fileInfo.classList.add('hidden');
+            analyzeBtn.classList.add('hidden');
+            results.classList.add('hidden');
+            emptyState.classList.remove('hidden');
+            
+            // Clear popup previews
+            const previewPopup = document.getElementById('previewPopup');
+            const videoPreviewPopup = document.getElementById('videoPreviewPopup');
+            if (previewPopup) {
+                previewPopup.src = '';
+                previewPopup.style.display = 'none';
+            }
+            if (videoPreviewPopup) {
+                videoPreviewPopup.src = '';
+                videoPreviewPopup.style.display = 'none';
+            }
+        }
+
+        analyzeBtn.addEventListener('click', async () => {
+            const file = fileInput.files[0];
+            if (!file) return;
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            analyzeBtn.disabled = true;
+            loading.classList.remove('hidden');
+            results.classList.add('hidden');
+            emptyState.classList.add('hidden');
+
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                // If server responded with non-OK status, try to parse and show the error
+                if (!response.ok) {
+                    let errJson = null;
+                    try {
+                        errJson = await response.json();
+                    } catch (e) {
+                        console.error('Failed to parse error JSON from server', e);
+                    }
+                    const msg = errJson && errJson.error ? errJson.error : 'Server error during analysis';
+                    const details = errJson && errJson.details ? '\nDetails: ' + errJson.details : '';
+                    alert(msg + details);
+                    return;
+                }
+
+                // Parse JSON safely
+                let data = null;
+                try {
+                    data = await response.json();
+                } catch (e) {
+                    console.error('Invalid JSON response from /predict', e);
+                    alert('Invalid response from server. Please try again.');
+                    return;
+                }
+
+                // Validate expected shape
+                if (data && data.prediction) {
+                    displayResults({
+                        ensemble_prediction: data.prediction.ensemble.class || data.prediction.ensemble.class,
+                        ensemble_confidence: data.prediction.ensemble.confidence || data.prediction.ensemble.confidence,
+                        model_predictions: Object.fromEntries(Object.entries(data.prediction.models || data.prediction.models).map(([k,v]) => [k, { prediction: v.class, confidence: v.confidence }]))
+                    });
+                } else if (data && data.success && data.prediction) {
+                    // older response shape fallback
+                    displayResults({
+                        ensemble_prediction: data.prediction.ensemble.class,
+                        ensemble_confidence: data.prediction.ensemble.confidence,
+                        model_predictions: Object.fromEntries(Object.entries(data.prediction.models).map(([k,v]) => [k, { prediction: v.class, confidence: v.confidence }]))
+                    });
+                } else {
+                    console.error('Unexpected response format', data);
+                    alert('Unexpected server response. Check server logs.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred during analysis. Please try again.');
+            } finally {
+                analyzeBtn.disabled = false;
+                loading.classList.add('hidden');
+            }
+        });
+
+        function displayResults(data) {
+            const resultLabel = document.getElementById('resultLabel');
+            const resultConfidence = document.getElementById('resultConfidence');
+            const resultIcon = document.getElementById('resultIcon');
+            const confidenceBar = document.getElementById('confidenceBar');
+            const modelPredictions = document.getElementById('modelPredictions');
+
+            // Main result - prefer ResNet ('resnet50') when available, otherwise use ensemble
+            let mainPred = data.ensemble_prediction;
+            let mainConf = data.ensemble_confidence;
+            if (data.model_predictions && data.model_predictions['resnet50']) {
+                mainPred = data.model_predictions['resnet50'].prediction;
+                mainConf = data.model_predictions['resnet50'].confidence;
+            }
+
+            resultLabel.textContent = mainPred;
+            resultConfidence.textContent = (mainConf * 100).toFixed(1) + '%';
+            confidenceBar.style.width = (mainConf * 100) + '%';
+            
+            // Icon (use FontAwesome for bird, emoji fallback for drone)
+            if (mainPred === 'Bird') {
+                resultIcon.innerHTML = '<i class="fas fa-dove text-4xl text-emerald-400"></i>';
+            } else {
+                // FontAwesome drone may not be available in all kits; use emoji fallback
+                resultIcon.innerHTML = '<span class="text-4xl text-amber-400">🚁</span>';
+            }
+
+            // Model predictions
+            modelPredictions.innerHTML = '';
+            for (const [model, pred] of Object.entries(data.model_predictions)) {
+                const div = document.createElement('div');
+                div.className = 'glass rounded-xl p-4 hover:bg-white/10 transition-all duration-300';
+                
+                const predClass = pred.prediction;
+                const confidence = (pred.confidence * 100).toFixed(1);
+                // Use FontAwesome dove for bird; use helicopter emoji for drone as a reliable fallback
+                const iconHtml = predClass === 'Bird'
+                    ? '<i class="fas fa-dove text-emerald-400"></i>'
+                    : '<span class="text-amber-400">🚁</span>';
+                const badgeColor = predClass === 'Bird' ? 'bg-emerald-500/20 text-emerald-400' : 'bg-amber-500/20 text-amber-400';
+                
+                div.innerHTML = `
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 bg-indigo-500/20 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-microchip text-indigo-400"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-white uppercase text-xs tracking-wider">${model}</p>
+                                <div class="flex items-center gap-2 mt-1">
+                                    ${iconHtml}
+                                    <span class="text-sm font-semibold ${badgeColor} px-2 py-0.5 rounded">${predClass}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-2xl font-black text-white">${confidence}%</p>
+                        </div>
+                    </div>
+                    <div class="mt-3 h-1.5 bg-white/10 rounded-full overflow-hidden">
+                        <div class="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full" style="width: ${confidence}%;"></div>
+                    </div>
+                `;
+                
+                modelPredictions.appendChild(div);
+            }
+
+            results.classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>

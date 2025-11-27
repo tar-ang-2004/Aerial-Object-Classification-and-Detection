@@ -753,17 +753,13 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ## 📞 Contact & Support
 
-- **Author**: [Your Name]
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Project Link**: [https://github.com/yourusername/bird-vs-drone-detection](https://github.com/yourusername/bird-vs-drone-detection)
+- **Author**: Tarang Kishor
+- **Email**: tarangkishor2004@gmail.com
 
 ---
 
 <div align="center">
 
 **⭐ If you find this project helpful, please consider giving it a star! ⭐**
-
-Made with ❤️ and PyTorch
 
 </div>
